@@ -1,0 +1,7 @@
+.modalLi {
+  @apply w-full cursor-pointer;
+}
+
+.modalItem {
+  @apply inline-block w-full h-full py-2 bg-transparent transition-colors duration-200 hover:bg-bg-color;
+}
