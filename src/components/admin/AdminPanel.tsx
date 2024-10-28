@@ -20,7 +20,7 @@ function AdminPanel({ movies, theaters, categories }: AdminPanelProps) {
 
   useEffect(() => {
     if (user!.role === Role.user) notFound();
-  }, [user]);
+  }, [user])
 
   return (
     <div className="container mx-auto max-sm:gap-3">
